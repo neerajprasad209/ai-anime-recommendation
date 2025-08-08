@@ -1,0 +1,87 @@
+.stApp {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    font-family: 'Poppins', sans-serif;
+    color: #2b2b2b;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 5px rgba(163, 196, 243, 0.8);
+    color: #5a4fcf;
+}
+
+h2 {
+    color: #4a47a3;
+    text-shadow: 1px 1px 3px rgba(163, 196, 243, 0.8);
+}
+
+div.stButton > button {
+    background-color: #6a5acd;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(90, 79, 207, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+
+div.stButton > button:hover {
+    background-color: #483d8b;
+    transform: scale(1.05);
+}
+
+/* Input label style */
+label[data-testid="stWidgetLabel"] > div {
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Make text input readable */
+.stTextInput input {
+    color: #000000 !important;  /* Black text */
+    background-color: #ffffff !important; /* White background */
+    border-radius: 8px;
+}
+
+.stTextInput input::placeholder {
+    color: #555555 !important;
+}
+
+/* Footer section */
+.footer {
+    margin-top: 50px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+.footer strong {
+    font-weight: bold;
+    color: #5a4fcf; /* Matches theme purple */
+}
+
+.footer-icons img {
+    vertical-align: middle;
+}
+
+.footer-icons a {
+    margin: 0 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer-icons a:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer hr {
+    border: none;
+    height: 1px;
+    background-color: rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
